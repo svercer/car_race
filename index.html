@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Car racing game</title>
+	<meta name="keywords" content="html,css,lekcii">
+	<meta name="description" content="ova e strana za ucenje">
+	<meta name="author" content="Kristijan Bobevski">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<!-- Latest compiled and minified BOOTSTRAP CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- Local CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- Font-awesome 4.7 cdn -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="race">
+    
+    <!-- write your code here -->
+    <div id="heading" class="text-center">
+        <h1>Car racing game</h1>
+        <button id="btnRace" type="button" class="btn btn-default">Race!</button>
+        <button id="btnOver" type="button" class="btn btn-default">Start Over</button>
+    </div>
+    <div id="cars">
+        <div id="div1">
+            <img src="assets/images/car1.gif" id="car1" class="text-left margin_top_bottom_40" alt="car1">
+        </div>
+        <div id="div2">
+            <img src="assets/images/car2.gif" id="car2" class="text-left margin_top_bottom_40" alt="car2">
+        </div>
+        <div id="timer" class="text-center">
+            
+        </div>
+        <div id="zname">
+            <img src="assets/images/finish.gif" alt="">
+        </div>
+    </div>
+
+    <div id="results" class="container-fluid">
+        <div class="row">
+            <div class=" text-center col-md-5">
+                <h3>Results</h3>
+                <div class="row text-center">
+                    <div class="col-md-6 col-sm-6">
+                        <table class="left">
+                            <thead>
+                                <th><h4 class="white">car1</h4></th>
+                            </thead>
+                            <tbody id="left">
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-md-6 col-sm-6" id="">
+
+                        <table class="right">
+                            <thead>
+                                <th class="red"><h4><strong>car2</strong></h4></th>
+                            </thead>
+                            <tbody id="right">
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7 col-sm-12 text-center">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+
+                        <table id="fromStorage">
+                            <h3>Results from the previous time you played this game:</h3>
+                            <thead>
+                            </thead>
+                            <tbody id="tableStorage">
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+	<!-- jQuery library -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+
+	<script src="assets/jquery/jquery.js"></script>
+	<script src="assets/jquery/app.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+</body>
+</html>

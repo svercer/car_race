@@ -1,0 +1,129 @@
+#race {
+	/* text-align: center; */
+	background-color: #242021;
+	/* overflow: hidden; */
+	position: relative;
+}
+p.counter {
+	font-size: 80px;
+	position: relative;
+	bottom: 30px;
+}
+.borderRow {
+	border: 1px solid white;
+	color: white;
+}
+.borderRow > td {
+	padding: 10px;
+} 
+tbody > tr > td {
+	/* height: 100px; */
+	max-height: 100px;
+	min-height: 100px;
+}
+#btnRace, #btnOver {
+	border: 1px solid #a2a2a2;
+	background-color: transparent;
+	color:#a2a2a2 ;
+	padding: 3px 35px;
+}
+#heading {
+	padding: 20px;
+	/* border-bottom: 10px solid green; */
+}
+#results {
+	/* border-top: 10px solid green; */
+	padding: 20px;
+}
+/* #results {
+} */
+.margin_top_bottom_40{
+	margin-top: -40px;
+	margin-bottom: -40px;
+}
+
+h1, h2, h3  {
+	color: 	#a2a2a2;
+}
+
+h3 { font-size: 25px; }
+
+h2 { font-size: 35px; }
+
+h1 { font-size: 50px; } 
+
+/*use these below*/
+#car1 {
+	
+	width: 200px;
+	text-align: left!important;
+}
+.white {
+	color: #ffebf7;
+	font-weight: bold;
+}
+.red {
+	color: #ba0000;
+	font-weight: bold;
+}
+span {
+	font-weight: bold;
+}
+th > h3.red {
+	color: red;
+}
+
+/* #div1 {
+	border-top: 10px solid grey;
+	border-bottom: 10px solid yellow;
+	margin-bottom: 10px;
+}
+#div2 {
+	border-bottom: 10px solid grey;
+	border-top: 10px solid yellow;
+} */
+
+#car2 {
+	
+	margin-left: 0;
+	width: 200px;
+
+}
+#cars {
+	position: relative;
+}
+#timer {
+	position: absolute;
+	font-size: 3rem!important;
+	color: white!important;
+	left: 50%;
+	top: 50%;
+}
+#zname {
+	position: absolute;
+	left: 40%;
+	top: 0;
+}
+span.red {
+	color: red;
+}
+h3.red {
+	font-weight: 900;
+}
+#zname {
+	visibility: hidden;
+}
+#cars {
+	background-image: url('../images/raceTrack.jpg');
+	background-repeat: repeat;
+	background-size: contain;
+}
+#fromStorage {
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: center;
+	
+	align-items: flex-end;
+}
+
+
